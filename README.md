@@ -1,41 +1,36 @@
 # Resolve-Marker-Batch-Editor
-# 🔧 安装
 
-- 请将 *Marker_Batch_Editor_v1.py* 拷贝至达芬奇指定的脚本存放目录下
+# 🔧 Installation
 
-- macOS: /Users/{你的用户名}/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit
+- Please copy *Marker_Batch_Editor_v1 ENG.py* into DaVinci Resolve’s designated scripts folder.
 
-- Windows: C:\Users\{你的用户名}\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Edit
+- macOS: /Users/{your-username}/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit
 
-- 使用 v17.2 及以上版本 (老版本似乎不支持中文噢)
+- Windows: C:\Users\{your-username}\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Edit
 
-- 在菜单：工作区(Workspace) > 脚本(Scripts) 中即可找到
+- Use DaVinci Resolve v17.2 or above.
 
-- 仅支持在达芬奇内使用，不支持在外部运行
+- You can find it in the menu: Workspace > Scripts.
 
-  
+- Can only be used inside DaVinci Resolve, not as an external script.
 
-# 🎛 用法
+# 🎛 Usage
 
-- 在工具中提供了 *标记颜色、标记名称、标记备注的替换*，以及 *按标记颜色删除* 功能
+- The tool provides *replacement for marker color, marker name, and marker note*, as well as *delete by marker color*.
 
-- 用法类似绝大多数系统自带的“查找/替换”功能，即左侧输入框为“查找”，右侧为“替换”
+- Usage is similar to most system “Find/Replace” functions: the left input field is “Find”, the right one is “Replace”.
 
-- 支持 正则语法*
+- Supports regular expressions*.
 
-- 要切换至正则模式，请在左右两侧输入框都为空时，点击右侧的修改按钮
+- To switch to regex mode, when both left and right input fields are empty, click the Edit button on the right.
 
-- 在窗口下方拉高窗口高度，你会看到一个隐藏的恢复按钮，可以将手贱改错的所有标记点，恢复到打开这个工具时的样子
+- If you drag the bottom of the window to increase its height, you will see a hidden Restore button, which can revert all mistakenly modified markers back to the state when you opened this tool.
 
+# 🧷 Tips
 
+To delete specific content, simply leave the right target field empty.
 
-# 🧷 TIPS 
+# ☝️ Requirements
 
-要删除指定内容，右侧目标栏留空即可
-
-
-
-# ☝️ 需要
-
-- Python 3.6 64-bit 
-- 其他版本的 Python 达芬奇并不支持
+- Python 3.6 64-bit  
+- Other Python versions are not supported by DaVinci Resolve.
