@@ -4,10 +4,12 @@
 
 - Please copy *Marker_Batch_Editor_v1 ENG.py* into DaVinci Resolve’s designated scripts folder.
 
-- macOS: /Users/{your-username}/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit
-
-- Windows: C:\Users\{your-username}\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Edit
-
+    Mac OS X: /Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts
+  
+    Windows: %PROGRAMDATA%\Blackmagic Design\DaVinci Resolve\Fusion\Scripts
+  
+    Linux: /opt/resolve/Fusion/Scripts  (or /home/resolve/Fusion/Scripts/ depending on installation)
+  
 - Use DaVinci Resolve v17.2 or above.
 
 - You can find it in the menu: Workspace > Scripts.
